@@ -1,0 +1,91 @@
+body{
+    color: rgb(9, 133, 241);
+}
+header {
+    background-color: rgb(214, 104, 104);
+   color: rgb(214, 104, 104);
+    padding: 10px 0;
+   text-align: center;
+
+   }
+   h1{
+    background-color: aliceblue;
+   color:rgb(253, 28, 28);
+    width: auto;}
+    
+   h2{
+color: blanchedalmond;
+text-align: center;
+   
+   }
+   .catalog-item {
+       position: relative;
+       display: inline-block;
+   }
+   
+   .catalog-item:hover::after {
+       content: attr(data-title);
+       position: absolute;
+       top: 110%; 
+       left: 50%;
+       transform: translateX(-50%);
+       background: rgba(0, 0, 0, 0.8);
+       color: white;
+       padding: 5px 10px;
+       border-radius: 5px;
+       white-space: nowrap;
+       font-size: 14px;
+       z-index: 10;
+   }
+   
+   
+   .lista ul{
+    list-style: none;
+     padding: 0;
+   }
+   .lista ul li{
+   display: inline;
+   
+   }
+   
+   summary{
+    color: aliceblue;
+   }
+   img{
+    width:100px;
+    height:100px;
+    margin: 12px 12px;
+    border-radius: 20px 20px;
+    
+   }
+   
+   .guacamole{
+    border-radius:20px 20px;
+    box-shadow:0 0 60px 0 rgb(0, 255, 106);
+   
+   }
+   .cebolla{
+    border-radius:20px 20px;
+    box-shadow:0 0 60px 0 rgb(250, 208, 208);
+   
+   }
+   .tomate{
+    border-radius:20px 20px;
+    box-shadow:0 0 60px 0 rgb(255, 0, 0);
+   }
+   .pepinillo{
+    border-radius:20px 20px;
+    box-shadow:0 0 60px 0 rgb(0, 90, 36);
+   }
+   .suero{
+    border-radius:20px 20px;
+   box-shadow:0 0 60px 0 rgb(255, 255, 255);
+   } 
+   .jalapeño{
+   border-radius:20px 20px;
+    box-shadow:0 0 60px 0 rgb(56, 247, 136);
+   }
+   .piña{
+    border-radius:20px 20px;
+   box-shadow:0 0 60px 0 rgb(188, 255, 4);
+   }
